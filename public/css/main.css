@@ -17,9 +17,9 @@ body {
   --font-size-17xl: 36px;
 
   /* Colors */
-  --color-gray-100: #191e27;
-  --color-gray-200: #0f0f0f;
-  --color-darkslategray: rgba(35, 45, 63, 0.5);
+  --color-gray-100: #556B2F;
+  --color-gray-200: #006400;
+  --color-darkslategray: #556B2F;
   --color-white: #fff;
   --color-teal-100: #008170;
   --color-teal-200: #005b41;

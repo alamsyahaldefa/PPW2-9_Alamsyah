@@ -27,16 +27,16 @@ class Pertemuan9Controller extends Controller
         ]);
 
         User::create([
-            'name' => $request->name,
-            'email' => $request->email,
-            'password' => Hash::make($request->password)
-        ]);
+            'name' => $request->input('name'), // Memastikan 'name' berada di dalam tanda kutip
+            'email' => $request->input('email'),
+            'password' => Hash::make($request->input('password'))
+        ]);        
 
         $credentials = $request->only('email', 'password');
         Auth::attempt($credentials);
         $request->session()->regenerate();
         return redirect()->route('dashboard')
-        ->withSuccess('You have successfully registered & logged in!');
+        ->withSuccess('Berhasil!');
     }
     public function login(){
         return view('porto.login');
@@ -48,10 +48,10 @@ class Pertemuan9Controller extends Controller
         ]);
         if(Auth::attempt($credentials)){
             $request->session()->regenerate();
-            return redirect()->route('dashboard')->withSuccess('You have successfully loggedin!');
+            return redirect()->route('dashboard')->withSuccess('Berhasil!');
         }
         return back()->withErrors([
-            'email' => 'The provided credentials do not match our records.'
+            'email' => 'Tidak cocok!'
         ])->onlyInput('email');
     }
     public function dashboard(){
@@ -60,7 +60,7 @@ class Pertemuan9Controller extends Controller
         }
         return redirect()->route('login')
         ->withErrors([
-            'email' => 'You must be logged in to view the dashboard.'
+            'email' => 'Login dulu!'
         ])->onlyInput('email');
     }
     public function logout(Request $request)
@@ -69,6 +69,6 @@ class Pertemuan9Controller extends Controller
         $request->session()->invalidate();
         $request->session()->regenerateToken();
         return redirect()->route('login')
-            ->withSuccess('You have logged out successfully!');;
+            ->withSuccess('Berhasil!');;
     }  
 }

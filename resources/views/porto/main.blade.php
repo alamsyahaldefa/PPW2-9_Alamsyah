@@ -16,14 +16,14 @@
             color: #FFFFFF;
         }
         .navbar{
-            background-color: rgba(35, 45, 63, 0.5);
+            background-color: #006400;
         }
     </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg">
         <div class="container">
-            <a href="{{URL('/')}}" class="navbar-brand text-light">Harits</a>
+            <a href="{{URL('/')}}" class="navbar-brand text-light ">SELAMAT DATANG</a>
             <button class="navbar-toggler" type="button" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
              aria-expanded="false" aria-label="Togle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">

@@ -1,29 +1,35 @@
 @extends('porto.main')
 
 @section('content')
-    <div class="login1">
-        <div class="form-login">
-            <div class="form-login-child"></div>
-            <div class="login3">
-                <div class="login-child"></div>
-                <div class="register5">Login</div>
-            </div>
-            <div class="username2">
-                <div class="password-item"></div>
-                <div class="password3">Username</div>
-            </div>
-            <div class="password2">
-                <div class="password-item"></div>
-                <div class="password3">Password</div>
-            </div>
-            <!-- <div class="button-login">
-                <div class="button-login-child"></div>
-                <div class="login2">Login</div>
-            </div> -->
-            <div class="mb-3 row button-login">
-                <div class="button-login-child"></div>
-                <input type="submit" class="col-md-3 offset-md-5 btn btn-primary login2" value="Login">
+
+<div class="justify-content-center row mt-5">
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header justify-content-center row">Login</div>
+            <div class="card-body">
+                <form action="{{ route('authenticate') }}" method="post">
+                    @csrf
+                    <div class="form-floating mb-3 mx-5 row">
+                        <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" placeholder="email" value="{{ old('email') }}">
+                        <label for="email">Email</label>
+                        @if ($errors->has('email'))
+                            <span class="text-danger">{{ $errors->first('email') }}</span>
+                        @endif
+                    </div>
+                    <div class="form-floating mb-3 mx-5 row">
+                        <input type="password" class="form-control @error('email') is-invalid @enderror" id="password" name="password" placeholder="password"">
+                        <label for="password">Password</label>
+                        @if ($errors->has('password'))
+                            <span class="text-danger">{{ $errors->first('password') }}</span>
+                        @endif
+                    </div>
+                    <div class="justify-content-center mb-3">
+                        <input type="submit" class="col-md-3 offset-md-5 btn btn-primary" value="Login">
+                    </div>
+                </form>
             </div>
         </div>
-    </div>
-
+    </div>    
+</div>
+    
+@endsection

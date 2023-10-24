@@ -1,0 +1,421 @@
+.get-in-touch-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  width: 400px;
+  height: 90px;
+}
+.get-in-touch1 {
+  position: absolute;
+  top: 16px;
+  left: calc(50% - 170px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 340px;
+}
+.get-in-touch {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 90px;
+  text-align: left;
+  font-size: var(--font-size-45xl);
+}
+.haritsirawan2118gmailcom {
+  position: absolute;
+  top: 43px;
+  left: 0;
+}
+.email3,
+.email4 {
+  position: absolute;
+  top: 0;
+}
+.email4 {
+  left: 0;
+  color: var(--color-silver);
+}
+.email3 {
+  left: 85px;
+  width: 429px;
+  height: 76px;
+}
+.vector-icon {
+  height: 42.11%;
+  width: 7.78%;
+  top: 28.95%;
+  right: 92.22%;
+  bottom: 28.95%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div,
+.email2,
+.phone2,
+.vector-icon {
+  position: absolute;
+  left: 0;
+}
+.email2 {
+  top: 256px;
+  width: 514px;
+  height: 76px;
+}
+.div,
+.phone2 {
+  top: 0;
+}
+.div {
+  top: 43px;
+  color: var(--color-white);
+}
+.phone1,
+.vector-icon1 {
+  position: absolute;
+  top: 0;
+  left: 85px;
+  width: 247px;
+  height: 76px;
+}
+.vector-icon1 {
+  height: 56.18%;
+  width: 12.95%;
+  top: 21.71%;
+  right: 87.5%;
+  bottom: 22.11%;
+  left: -0.45%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.phone {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 332px;
+  height: 76px;
+  color: var(--color-silver);
+}
+.bagian-4 {
+  position: absolute;
+  top: 2637px;
+  left: 119px;
+  width: 514px;
+  height: 332px;
+}
+.graduated-from-jetis {
+  position: absolute;
+  top: 64px;
+  left: 0;
+  line-height: 173.9%;
+  display: inline-block;
+  width: 692px;
+  height: 254px;
+}
+.jetis-public-high {
+  position: relative;
+  letter-spacing: 0.05em;
+  line-height: 173.9%;
+}
+.jetis-public-high-school-parent {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-teal-100);
+}
+.high-school,
+.i-started-my {
+  position: absolute;
+  top: 554px;
+  left: 562px;
+  width: 692px;
+  height: 318px;
+}
+.i-started-my {
+  top: 63px;
+  left: 0;
+  line-height: 173.9%;
+  display: inline-block;
+  height: 297px;
+}
+.now {
+  position: relative;
+  font-size: var(--font-size-11xl);
+  line-height: 173.9%;
+  color: var(--color-white);
+}
+.university-of-gadjah-mada-parent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  text-align: left;
+  color: var(--color-teal-100);
+}
+.bagian-3-child,
+.university {
+  position: absolute;
+  top: 144px;
+  left: 0;
+  width: 692px;
+  height: 360px;
+}
+.bagian-3-child {
+  top: 89px;
+  background-color: var(--color-teal-100);
+  width: 300px;
+  height: 5px;
+}
+.my-educational-history {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 627px);
+  font-size: var(--font-size-45xl);
+  font-weight: 600;
+  color: var(--color-white);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  width: 699px;
+}
+.bagian-3 {
+  position: absolute;
+  top: 1705px;
+  left: 93px;
+  width: 1254px;
+  height: 872px;
+  color: var(--color-silver);
+}
+.tools-and-skills {
+  position: absolute;
+  top: 179px;
+  left: 0;
+  width: 1100px;
+  height: 200px;
+}
+.tools-and-skills1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 250px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+}
+.bagian-2 {
+  position: absolute;
+  top: 1126px;
+  left: 170px;
+  width: 1100px;
+  height: 379px;
+  text-align: center;
+  font-size: var(--font-size-45xl);
+}
+.bagian-1-child,
+.bagian-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-teal-200);
+  filter: blur(400px);
+  width: 378px;
+  height: 378px;
+}
+.bagian-1-item {
+  top: 496px;
+  left: 1498px;
+}
+.muhammad-harits-detya,
+.software-engineer {
+  position: relative;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  width: 480px;
+}
+.muhammad-harits-detya {
+  font-size: 70px;
+  font-weight: 600;
+  color: var(--color-white);
+  width: 678px;
+}
+.content-child {
+  position: relative;
+  background-color: var(--color-teal-100);
+  width: 300px;
+  height: 5px;
+}
+.someone-who-is {
+  position: relative;
+  font-size: var(--font-size-15xl);
+  line-height: 173.9%;
+  text-align: justify;
+  display: inline-block;
+  width: 678px;
+}
+.content {
+  position: absolute;
+  top: 98px;
+  left: 335px;
+  width: 678px;
+  height: 419px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
+.find-me-child,
+.instagram-icon,
+.linkedln-icon,
+.wa-icon {
+  position: absolute;
+  top: 11px;
+  left: 249px;
+  width: 54.5px;
+  height: 54.5px;
+}
+.find-me-child,
+.instagram-icon,
+.linkedln-icon {
+  left: 321px;
+}
+.find-me-child,
+.linkedln-icon {
+  left: 393px;
+}
+.find-me-child {
+  top: -1.5px;
+  left: -1.5px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 3px solid var(--color-teal-100);
+  box-sizing: border-box;
+  width: 203px;
+  height: 77.1px;
+}
+.find-me-on {
+  position: absolute;
+  top: 13.8px;
+  left: 17.2px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 165.5px;
+  height: 48.3px;
+}
+.bagian-1,
+.find-me,
+.find-me1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 74.1px;
+}
+.bagian-1,
+.find-me {
+  top: 648px;
+  left: 335px;
+  width: 447.5px;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-white);
+}
+.bagian-1 {
+  top: 152px;
+  left: -235px;
+  width: 1876px;
+  height: 874px;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-silver);
+}
+.dashboard-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1440px;
+  height: 96px;
+}
+.harits1 {
+  position: absolute;
+  top: 33px;
+  left: 92px;
+  font-size: var(--font-size-15xl);
+  line-height: 31px;
+}
+.about,
+.contact,
+.skills,
+.studies {
+  position: absolute;
+  top: 0;
+  left: 366px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 177px;
+  height: 96px;
+}
+.contact,
+.skills,
+.studies {
+  left: 543px;
+}
+.contact,
+.studies {
+  left: 720px;
+}
+.contact {
+  left: 897px;
+}
+.group-icon {
+  position: absolute;
+  height: 44.79%;
+  width: 2.99%;
+  top: 27.6%;
+  right: 5.45%;
+  bottom: 27.6%;
+  left: 91.56%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dashboard1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 96px;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+}
+.home {
+  position: relative;
+  background-color: var(--color-gray-200);
+  width: 100%;
+  height: 3072px;
+  overflow: hidden;
+  text-align: justify;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-league-spartan);
+}

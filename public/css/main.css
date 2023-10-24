@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-league-spartan: "League Spartan";
+
+  /* font sizes */
+  --font-size-7xl: 26px;
+  --font-size-15xl: 34px;
+  --font-size-21xl: 40px;
+  --font-size-5xl: 24px;
+  --font-size-11xl: 30px;
+  --font-size-45xl: 64px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-gray-100: #191e27;
+  --color-gray-200: #0f0f0f;
+  --color-darkslategray: rgba(35, 45, 63, 0.5);
+  --color-white: #fff;
+  --color-teal-100: #008170;
+  --color-teal-200: #005b41;
+  --color-silver: #bfbfbf;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-lg: 18px;
+
+  /* Border radiuses */
+  --br-11xl: 30px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+}
